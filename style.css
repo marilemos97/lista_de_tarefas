@@ -1,0 +1,110 @@
+
+*{
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: darkslategrey;
+}
+/* onde insere as tarefas */
+h1{
+   text-align: center;
+   font-size: 3rem;
+}
+
+header{
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+ }
+ 
+input{
+    height: 100px;
+   font-size: 2rem;
+   width: 80%;
+   padding-left: 10%;
+   border-radius: 100px;
+   border: none;
+ }
+
+button.add{
+   width: 30%;
+   cursor: pointer;
+   background: lime;
+   color: blueviolet;
+   height: 100px;
+   font-size: 1rem;
+   font-weight: bolder;
+   border: none;
+   border-radius: 100px;
+   
+}
+
+main{
+ /*  border: 1px navy solid;*/
+   display: flex;
+   flex-flow:  row wrap;
+   width: 90%;
+   margin: auto auto;
+   padding-top: 40px;
+}
+
+/* itens */
+
+.item{
+   background: wheat;
+   height: 80px;
+   width: 100%;
+   margin-bottom: 3%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+}
+
+.item-icone{
+/* border: 2px orange solid;*/
+   flex: 4%;
+}
+
+input#feIto{
+   align-content: center;
+}
+
+input{
+   width:20px;
+  /* border: 2px lime solid;*/
+   flex: 15%;
+}
+
+.item-nome{
+ /*  border: 2px deeppink solid;*/
+   flex: 55%;
+   font-size: 2rem;
+}
+
+
+/* credito */
+
+footer{
+   color: white;
+   background-color: lightslategray;
+   margin-top: 108%;
+   border-bottom: 10px lightslategray solid;
+      border-top: 5px lightslategray solid;
+}
+
+h5{
+   font-size: 20px;
+}
+h5, p{
+   margin-left: 2rem;
+}
+.esquerda{
+   margin-left: 50%;
+   margin-bottom: -4rem;
+}
